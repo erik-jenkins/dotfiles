@@ -8,6 +8,19 @@ set autochdir
 set incsearch
 set hlsearch
 
+" indentation
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+" line numbers
+set nu
+
+" colors
+hi EndOfBuffer ctermbg=black ctermfg=black
+hi VertSplit cterm=None
+set fillchars+=vert:\ 
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -24,14 +37,20 @@ call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " plugin configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" vimwiki
-let g:vimwiki_list = [{'path': '~/.dotfiles/wiki'}]
+" airline
+let g:airline_theme='wombat'
 
 " coc
-source ~/.config/nvim/coc.vim
+" source ~/.config/nvim/coc.vim
 
-" airline
-let g:airline_theme='ayu_mirage'
+" vim-go
+let g:go_fmt_command = "goimports"
+let g:go_highlight_types = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+
+" vimwiki
+let g:vimwiki_list = [{'path': '~/.dotfiles/wiki'}]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " keybindings
