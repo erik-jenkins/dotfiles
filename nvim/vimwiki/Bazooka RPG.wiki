@@ -1,0 +1,23 @@
+[[index]]
+
+= Bazooka RPG =
+
+== Summary ==
+
+Bazooka is a virtual tabletop (VTT) application for playing Dungeons and Dragons (DND) Fifth Edition (5e).
+
+== Features ==
+
+* Character management
+* Combat management
+* Maps and images
+  - Tile-based map editor
+  - Stretch goal - dynamic line of sight?
+* Spells and effects
+* Campaign/story editing - with lots of links to jump to necessary information
+* (WANT) 3D dice rolling with smooth, realistic physics
+
+== Technical Aspects ==
+
+* Need in-browser window management
+

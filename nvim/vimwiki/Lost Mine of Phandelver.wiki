@@ -1,0 +1,331 @@
+[[index]]
+
+= Contents =
+  - [[#Lost Mine of Phandelver|Lost Mine of Phandelver]]
+    - [[#Lost Mine of Phandelver#Character Notes|Character Notes]]
+      - [[#Lost Mine of Phandelver#Character Notes#Valfis|Valfis]]
+      - [[#Lost Mine of Phandelver#Character Notes#Balkax Pyraxtallinost|Balkax Pyraxtallinost]]
+      - [[#Lost Mine of Phandelver#Character Notes#Des P. Cito|Des P. Cito]]
+      - [[#Lost Mine of Phandelver#Character Notes#Schnitzel|Schnitzel]]
+    - [[#Lost Mine of Phandelver#NPCs by location|NPCs by location]]
+      - [[#Lost Mine of Phandelver#NPCs by location#Stonehill Inn|Stonehill Inn]]
+      - [[#Lost Mine of Phandelver#NPCs by location#Barthen's Provisions|Barthen's Provisions]]
+      - [[#Lost Mine of Phandelver#NPCs by location#Shrine of Luck|Shrine of Luck]]
+      - [[#Lost Mine of Phandelver#NPCs by location#Edermath Orchard|Edermath Orchard]]
+      - [[#Lost Mine of Phandelver#NPCs by location#Lionshield Coster|Lionshield Coster]]
+      - [[#Lost Mine of Phandelver#NPCs by location#Townmaster's Hall|Townmaster's Hall]]
+      - [[#Lost Mine of Phandelver#NPCs by location#Alderleaf Farm|Alderleaf Farm]]
+      - [[#Lost Mine of Phandelver#NPCs by location#Phandalin Miner's Exchange|Phandalin Miner's Exchange]]
+      - [[#Lost Mine of Phandelver#NPCs by location#Sleeping Giant Taphouse|Sleeping Giant Taphouse]]
+    - [[#Lost Mine of Phandelver#Part 3: The Spider's Web|Part 3: The Spider's Web]]
+      - [[#Lost Mine of Phandelver#Part 3: The Spider's Web#The Triboar Trail|The Triboar Trail]]
+      - [[#Lost Mine of Phandelver#Part 3: The Spider's Web#Old Owl Well|Old Owl Well]]
+      - [[#Lost Mine of Phandelver#Part 3: The Spider's Web#Thundertree|Thundertree]]
+      - [[#Lost Mine of Phandelver#Part 3: The Spider's Web#Conyberry and Agatha's Lair|Conyberry and Agatha's Lair]]
+      - [[#Lost Mine of Phandelver#Part 3: The Spider's Web#Wyvern Tor|Wyvern Tor]]
+    - [[#Lost Mine of Phandelver#Sessions|Sessions]]
+      - [[#Lost Mine of Phandelver#Sessions#Session 1: Beginning and Arrival at Cragmaw Hideout|Session 1: Beginning and Arrival at Cragmaw Hideout]]
+      - [[#Lost Mine of Phandelver#Sessions#Session 2: Navigating the Cragmaw Hideout|Session 2: Navigating the Cragmaw Hideout]]
+      - [[#Lost Mine of Phandelver#Sessions#Session 3: Finishing Cragmaw Hideout and Setting Off to Phandalin|Session 3: Finishing Cragmaw Hideout and Setting Off to Phandalin]]
+      - [[#Lost Mine of Phandelver#Sessions#Session 4: Brawl Outside the Sleeping Giant Taphouse|Session 4: Brawl Outside the Sleeping Giant Taphouse]]
+      - [[#Lost Mine of Phandelver#Sessions#Session 5: Entering Tresendar Manor|Session 5: Entering Tresendar Manor]]
+      - [[#Lost Mine of Phandelver#Sessions#Session 6: Capture of Glasstaff|Session 6: Capture of Glasstaff]]
+
+= Lost Mine of Phandelver =
+
+== Character Notes ==
+
+=== Valfis ===
+
+* Level 3 dwarven cleric
+* AC:
+* PW:
+* Story notes:
+  - asd
+
+=== Balkax Pyraxtallinost ===
+
+* Level 3 dragonborn bard
+* AC:
+* PW:
+* Story notes:
+  - College of Lore
+  - Bagpipes
+
+=== Des P. Cito ===
+
+* Level 3 halfling warlock
+* AC:
+* PW:
+* Story notes:
+  - Patron is the fiend
+
+=== Schnitzel ===
+
+* Level 3 half-orc paladin
+* AC:
+* PW:
+* Story notes:
+  - asd
+
+== NPCs by location ==
+
+=== Stonehill Inn ===
+
+* Toblin Stonehill: innkeeper at the Stonehill Inn
+  - Human male
+  - Short, friendly
+  - Native of Triboar, came to Phandalin to prospect
+  - Knew more about innkeeping than mining
+  - Angry about Redbrands and townmaster Harbin Wester doing nothing
+  - Too scared to stir up trouble with Redbrands
+
+* Narth, an old farmer
+  - Talks about Sister Garaele leaving town for a few days and returning
+    wounded.
+  - See [[#Shrine of Luck]]
+
+* Elsa, a gossipy barmaid
+  - Talks about orchard keeper Daran Edermath being a former adventurer
+  - See [[#Edermath Orchard]]
+
+* Lanar, a miner
+  - Talks about orc raiders having been seen on the east end of the Triboar
+    trail. Townmaster looking for someone to run them off.
+  - See [[#Townmaster's Hall]]
+
+* Trilena, innkeeper's wife
+  - Talks about local woodcarver Thel Dendrar standing up to the redbrands
+    and being murdered. Wife and children have gone missing too.
+  - (Unknown to players: wife + kids being held in Tresendar Manor)
+
+* Pip, innkeeper's son
+  - Talks about Qelline Alderleaf's son Carp finding a secret tunnel in the
+    woods, but almost being caught by the Redbrands.
+  - See [[#Alderleaf Farm]]
+
+* Freda, a weaver
+  - Talks about how Redbrands conveniently ignore the Phandalin Miner's
+    Exchange. They don't want trouble with Halia Thornton.
+  - See [[#Phandalin Miner's Exchange]]
+
+=== Barthen's Provisions ===
+
+* Run by Elmar Barthen, lean and balding middle aged human male
+  - Pays 10GP to each player for delivery of supplies
+  - Saddened by news of Gundren's capture
+  - Tells him about two more Rockseeker brothers, Tharden and Nundro
+  - Tells players the history of Wave Echo Cave
+  - If asked about business, complains about Redbrands, tells players that
+  - they frequent the [[#Sleeping Giant Taphouse]]
+
+* Couple of young clerks, Ander and Thistle
+
+=== Shrine of Luck ===
+
+* Temple dedicated to Tymora, the goddess of luck and fortune
+* In the care of acolyte named Sister Garaele, zealous young elf
+  - Wants to rid Phandlin of the Redbrands
+  - Member of the Harpers who advocate equality and covertly oppose
+    the abuse of power.
+  - Garaele was asked to persuade a banshee named Agatha to answer
+    a question about a spellbook. The creature did not appear for her.
+    * Wants an intermediary to bring banshee a silver jeweled comb,
+      ask about the location of a spellbook belonging to legendary mage
+      Bowgentle.
+    * Says characters should flatter Agatha's vanity.
+    * Offers the players three potions of healing.
+    * See [[#Conyberry and Agatha's Lair]].
+  - Garaele offers a player the position of *Watcher* in the Harpers if
+    they complete her quest.
+
+=== Edermath Orchard ===
+
+* Daran Edermath, silver-haired half-elf
+  - Member of the Order of the Gauntlet (basically protect the weak)
+  - Concerned about the Redbrands, tells players they hang around at
+    the [[#Sleeping Giant Taphouse]] and that the main hideout is at
+    [[#Tresendar Manor]].
+  - Also tells players about someone digging around at the [[#Old Owl Well]].
+    Worried that dangerous magic might be dormant there.
+  - If players clear out the [[#Old Owl Well]], offers them the position
+    of *Chevall* in the Order of the Gauntlet.
+
+=== Lionshield Coster ===
+
+* Lionshieds are merchant company based in Yartar, hundred miles east
+* This one is run by 35 year old human woman named Linene Graywind.
+  - Knows that bandits have raided caravans on Triboar.
+  - Keeps armor and weapons for sale to interested buyers, but doesn't
+    sell to people who are a threat to Phandalin.
+  - Refuses to sell to Redbrands.
+  - Warns players to avoid [[#Sleeping Giant Taphouse]].
+  - Gives reward of 50GP to players if they return the supplies from
+    Cragmaw hideout.
+
+=== Townmaster's Hall ===
+
+* Townmaster is elected each year, currently a fat pompous fool named
+  Harbin Wester who is under the thumb of the Redbrands.
+  - Harbin is looking for someone to take out a band of orcs near
+    [[#Wyvern Tor]].
+* Sildar Hallwinter establishes himself in the Townmaster's Hall
+  - Wants to find Wave Echo Cave and help the Rockseeker brothers get it
+    back into operation.
+  - Offers party a 500GP reward to locate [[#Cragmaw Castle]] and defeat or
+    drive off the chieftain. Suggests the party search the land around the
+    Triboar Trail for more scouting parties.
+  - Also wants players to find Iarno Albrek. Rewards the players 200GP for
+    killing or capturing him.
+  - Offers a player the position of *Cloak* within the Lord's Alliance.
+
+=== Alderleaf Farm ===
+
+* Qelline Alderleaf, wise halfling that knows what's going on in town
+  - Carp found the tunnel under Tresendar Manor, can take the characters
+    there.
+  - Has druid friend named Reidoth who might know the location of [[#Cragmaw Castle]]
+    or [[#Wave Echo Cave]].
+      * Tells players that Reidoth set out for town of [[#Thundertree]], just
+        west of Neverwinter Wood.
+
+=== Phandalin Miner's Exchange ===
+
+* Weighs, measures, and pays out valuable finds to miners.
+* Serves as unofficial records office.
+* Guildmaster is Halia Thornton
+  - Ambitious human woman.
+  - Agent of Zhentarim, secret org that exerts control over the north thru
+    wealth and influence.
+  - Doesn't know location of [[#Cragmaw Castle]], but has heard that the Redbrands
+    have a goblin that might know.
+  - Offers characters 100GP to eliminate the redbrand leader, wants to take over
+    Redbrands herself.
+  - If the party disposes of the Redbrand leader, offers Zhentarim position of
+    fang to one of the members.
+
+=== Sleeping Giant Taphouse ===
+
+* They already did this, so I'm not going to take too many notes.
+* Run by dwarf named Grista who speaks mostly in grunts.
+* Frequented by the Redbrands.
+
+== Part 3: The Spider's Web ==
+
+=== The Triboar Trail ===
+
+* Uses overland map, party travels 24 miles per day over 10 hours.
+* Characters need to rest for eight hours per day
+* Remaining six hours for making/breaking camp 
+* Wilderness encounters
+  - See table in *Overview of Act 3* in Roll20
+
+=== Old Owl Well ===
+
+* Two day march northeast of Phandalin
+* Ruined watchtower in the rugged hills south of the Triboar Trail.
+* Prospectors noticed that someone has set up camp at the Old Owl Well,
+  and undead guardians have been posted to keep intruders out.
+  - Disruptor is an evil mage named Hamun Kost who hopes to find arcane
+    lore left behind by the builders of the Old Owl Well.
+    * Kost has sallow skin, shaved scalp, and black necromancy tattoo on head.
+    * DC 10 Arcana check reveals the tattoo to be necromancy symbol.
+    * DC 10 History check reveals garb to be of the land of Thay.
+  - Players can reason with Kost
+    * He wants the orcs at [[#Wyvern Tor]] removed, since they have scouted
+      his camp and seem to want to cause trouble.
+    * He wants to ask the banshee "What is the name of the wizard who built
+      the Old Owl Well?". See [[#Conyberry and Agatha's Lair]].
+  - Twelve zombies are inside the watchtower, can't be seen from outside.
+
+=== Thundertree ===
+
+* Mostly home to woodcutters and trappers
+* Eruption of Mount Hotenow to the north devastated Thundertree
+* Now populated by a plague of strange zombies
+* Druid Reidoth visits Thundertree to keep an eye on its dangers
+* Dragon cultists have arrived to treat with a dragon that claims Thundertree
+  as its domain.
+
+=== Conyberry and Agatha's Lair ===
+
+* Triboar trail runs right through Conyberry
+* Conyberry was sacked by barbarians years ago and now lies in ruins
+* An easily seen trail leads west into the Neverwinter Wood.
+* Read a whole bunch of flavor text....
+* If characters are rude, disrespectful, or threatening, Agatha disappears
+  without attacking or returning.
+* If characters are polite, Agatha is persuaded to help with DC 15 Charisma check.
+  - Agatha traded the book with a necromancer named Tsernoth from the city of Iriaebor
+    more than a hundred years ago. She does not know what became of the book afterward.
+* Banshee only answers one question -- characters may ask about anything, she answers
+  truthfully.
+  
+=== Wyvern Tor ===
+
+* Orc camp hidden in sizable hill
+* Attempt a DC 15 Wisdom (Perception) or DC 10 Wisdom (Survival) check per hour to find
+  the camp
+* Once find the cave, single orc keeping watch
+* If orc is not silenced during surprise round, he runs away and warns rest of band
+* Becomes basic combat encounter
+
+== Sessions ==
+
+=== Session 1: Beginning and Arrival at Cragmaw Hideout ===
+
+=== Session 2: Navigating the Cragmaw Hideout ===
+
+=== Session 3: Finishing Cragmaw Hideout and Setting Off to Phandalin ===
+
+* Defeated Klarg the bugbear and his goblin minions.
+* Schnitzel took one of Klarg's fingers
+* Des found the golden frog with the ruby eyes
+
+=== Session 4: Brawl Outside the Sleeping Giant Taphouse ===
+
+=== Session 5: Entering Tresendar Manor ===
+
+* Defeated Nothic
+* Discovered true identity of Glasstaff
+* Learned that Glasstaff was working under the Black Spider, a mysterious figure
+  who sought to waylay the Rockseeker brothers and discover the entrance to Wave
+  Echo Cave.
+* Defeated the bugbears with the keys to Mirna/children's cell
+
+=== Session 6: Capture of Glasstaff ===
+
+* Glasstaff was captured via a sleep spell from Balkax
+* Party will escort Mirna Dendrar, children, and Glasstaff back to Phandalin.
+  - Mirna should remind party of family heirloom in [[#Thundertree]].
+* Will bring Glasstaff to [[#Townmaster's Hall]].
+  - Sildar Hallwinter is set up there. Should have convo with Glasstaff,
+    who is a fellow member of the Lord's Alliance.
+    * "How could you Iarno?", "You think so small, Sildar..." etc.
+    * Iarno warns that "the Black Spider will have his way..."
+  - Sildar suggests party should clear out [[#Cragmaw Castle]] to find Gundren
+    and his map, or see what the other townsfolk need help with. See the above notes
+    for roleplaying those characters.
+    * They could seek out: Sister Garaele, Daran Edermath, Harbin Wester
+
+==== Post Session 6 Notes ====
+
+* Party incorporated Droop the goblin from Tresendar Manor
+* Rescued the Dendrars
+* Brought Iarno to lockup in the Townmaster's Hall
+* Equipped themselves at the Lionshield Coster
+  - Linene told them they might find potions and poisons at Barthen's Provisions
+* Des found the horde of the Nothic; Balkax took Talon and learned of its history
+  from Harbin Wester.
+* Schnitzel cooked all night with Martin the teenage chef at the Stonehill Inn,
+  producing _okay_ food.
+* Des spoke with Sister Garaele and learned of Agatha the Banshee.
+* The party set out on the road to Conyberry in search of Agatha.
+* Party fought 5 hobgoblins on the road to Conyberry
+  - Don't think they got XP yet, 500XP divided among the party
+* Party intends to find Agatha and move on to Wyvern Tor
+* *NOTE*: incorporate backstories for next time!!!
+
+=== Session 7 ===
+
+* Party made way to Conyberry 

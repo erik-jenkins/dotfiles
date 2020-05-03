@@ -1,0 +1,11 @@
+= Erik's Wiki =
+
+== Programming Languages ==
+
+=== Golang ===
+
+* [[The Go Programming Language]] - Notes
+
+== DND ==
+
+* [[Lost Mine of Phandelver]]

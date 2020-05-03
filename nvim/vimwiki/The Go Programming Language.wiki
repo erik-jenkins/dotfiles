@@ -1,0 +1,151 @@
+= Contents =
+  - [[#Chapter 1: Tutorial|Chapter 1: Tutorial]]
+    - [[#Chapter 1: Tutorial#1.2: Command-line arguments|1.2: Command-line arguments]]
+      - [[#Chapter 1: Tutorial#1.2: Command-line arguments#Loops|Loops]]
+
+= Chapter 1: Tutorial =
+
+== 1.1: Hello, World ===
+
+* To run Go program, run `go run helloworld.go`
+* Go is organized into _packages_
+* Program will not compile if there are missing packages OR unnecessary ones
+* Function is composed of:
+  * The keyword `func`
+  * The name of the function
+  * A parameter list
+  * A result list
+  * The body of the function
+* All Go source files are run through `gofmt`
+
+== 1.2: Command-line arguments ==
+
+* Command line args are accessed through a variable called `Args` that is
+  accessed through the `os` package.
+* `os.Args` is a _slice_ of strings
+  * Think of a slice as a dynamically sized sequence `s` of array elements
+    where individual elements are accessed with `s[i]` and contiguous
+    subsequences are accessed as `s[m:n]` (inclusive)
+* Comments begin with `//`
+* When applied to strings, the `+` operator concatenates the values
+* The `:=` symbol is part of a _short variable declaration_, a statement that
+  declares one or more variables and gives them appropriate types based on
+  the initializer values
+* Different variable initializations:
+
+{{{go
+
+// short variable declaration: can only be used in a function
+// (not for package-level variables)
+s := ""
+
+// relies on default initialization for the specified variable type ("" for
+// strings)
+var s string
+
+// rarely used, except when declaring multiple variables
+var s = ""
+
+// explicit about variable's type (redundant when initial value is provided)
+var s string = ""
+
+}}}
+
+=== Loops ===
+
+* Traditional `for` loop:
+
+{{{go
+
+for initialization; condition; post {
+  // zero or more statements
+}
+
+}}}
+
+* The `initialization` block is optional, and the `post` block is optional.
+  Leave both off to recreate a `while` loop.
+
+{{{go
+
+for condition {
+  // ...
+}
+
+}}}
+
+* The `range` keyword iterates over all of the elements in the specified
+  array/slice, returning the index and the value of the element at that index
+* If either the index or the value is unnecessary, use an underscore `_` to
+  ignore it (_blank identifier_).
+
+== 1.3: Finding Duplicate Lines ==
+
+* A `map` holds a set of key/value pairs and provides constant-time operations
+  to store, retrieve, or test for an item in a set
+* The key of a map may be any type that can be compared with `==`
+* When used with a map, the `range` keyword produces the key and the value
+  instead of the index and the value
+* The `bufio` package makes input and output efficient and convenient
+  * `Scanner` type reads input and breaks it into lines or words
+* Can read filenames from command line arguments and open files with `os.Open`:
+  * `os.Open` returns two values:
+    1. An open file(`*os.File`)
+    2. A value of the built-in `error` type
+  * If the second result is `nil`, no error occurred; otherwise, there was an
+    error.
+  * Error can be printed using `fmt.Printf("%v\n", err)`
+* Functions and other _package-level_ entities can be used before they are
+  declared.
+* The `ReadFile` function from the `io/ioutil` package reads the whole file at
+  once (as opposed to current "streaming" method)
+  
+== 1.4: Animated GIFs ==
+
+* When importing package whose path has multiple components, refer to the
+  package with a name that comes from the last component (e.g. `image/color`,
+  `color.White`, `color.Black`, etc.)
+* Use `const` declaration to give names to constants (similar syntax to
+  factored imports)
+* The value of a constant must be a number, string, or boolean
+* _Composite literals_ such as `[]color.Color{...}` and `gif.Gif{...}` are
+  a compact notation for instantiating any of Go's composite types from a
+  sequence of element values.
+* A _struct_ is a group of _fields_ that are collected together in a single
+  object that can be treated as a unit.
+* Fields not in the struct literal are set to the zero value for their type
+* The fields of a struct are accessed through dot notation
+
+== 1.5: Fetching a URL ==
+
+* Go's Internet access packages are grouped under `net`
+* The `http.Get` function makes an HTTP request and returns the response in
+  `resp` if there is no error
+* `resp` is a readable stream, all of which is read by `ioutil.ReadAll`
+
+== 1.6: Fetching URLs Concurrently ==
+
+* Go's main concurrency mechanisms are _goroutines_ and _channels_
+* When fetching multiple URLs, concurrency allows the operation to take just
+  the length of the longest fetch, not the sum of the fetches.
+* A _goroutine_ is a concurrent function execution
+* A _channel_ is a communication mechanism that allows one goroutine to
+  pass values of a specified type to another goroutine
+* A channel of a given type is created using `make`
+* When a goroutine attempts to send/receive on a channel, it blocks until
+  another goroutine attemps the corresponding send or receive operation
+
+== 1.7: A Web Server ==
+
+* An HTTP request is represented as a struct of type `http.Request`, which
+  contains a number of fields related to the HTTP request
+* `os.Stdout`, `ioutil.Discard`, and `http.ResponseWriter` all satisfy a
+  common output stream interface called `io.Writer`
+
+== 1.8: Loose Ends ==
+
+* `switch` statement does not need an operand, just a list of boolean
+  expressions
+* `break` causes control to resume at the next statement after the block
+  controls it (or to a label)
+* A _type declaration_ makes it possible to give a name to an existing type

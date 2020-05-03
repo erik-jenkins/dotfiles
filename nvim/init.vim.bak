@@ -1,0 +1,175 @@
+" plugins ----------------------------------------------------------------------
+
+call plug#begin()
+
+  Plug '2072/PHP-Indenting-for-VIm'
+  Plug 'easymotion/vim-easymotion'
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+  Plug 'junegunn/fzf.vim'
+  Plug 'morhetz/gruvbox'
+  Plug 'mattn/emmet-vim'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'scrooloose/nerdtree'
+  Plug 'sheerun/vim-polyglot'
+  Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-surround'
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
+  Plug 'vim-syntastic/syntastic'
+  Plug 'vimwiki/vimwiki'
+  Plug 'prettier/vim-prettier', {
+    \ 'do': 'yarn install',
+    \ 'branch': 'release/1.x',
+    \ 'for': [
+      \ 'javascript',
+      \ 'typescript',
+      \ 'css',
+      \ 'less',
+      \ 'scss',
+      \ 'json',
+      \ 'graphql',
+      \ 'markdown',
+      \ 'vue',
+      \ 'lua',
+      \ 'php',
+      \ 'python',
+      \ 'ruby',
+      \ 'html',
+      \ 'swift' ] }
+
+call plug#end()
+
+" plugin settings --------------------------------------------------------------
+set nocompatible
+filetype plugin on
+
+" emmet
+let g:user_emmet_leader_key='<C-E>'
+
+" coc
+source ~/.config/nvim/coc-config.vim
+
+" nerdtree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" easymotion
+let g:EasyMotion_smartcase = 1
+
+" prettier
+let g:prettier#exec_cmd_path = "/home/erik/.nvm/versions/node/v12.6.0/bin/prettier"
+
+" vim-go
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
+
+" vimwiki
+let g:vimwiki_list = [{'path': '~/.vim/vimwiki/'}]
+
+" default settings -------------------------------------------------------------
+
+" numbers
+set nu
+set relativenumber
+
+" colors
+syntax on
+let g:gruvbox_contrast_dark='soft'
+colorscheme gruvbox
+
+" indentation
+set tabstop=2
+set expandtab
+set shiftwidth=2
+set autoindent
+filetype indent on
+
+" display
+set nowrap
+
+" mouse
+set mouse=a
+
+" menu settings
+set wildmenu
+set wildmode=longest:list,full
+
+" searching
+set ignorecase
+set smartcase
+
+" leader key
+let mapleader = " "
+
+" keymaps ----------------------------------------------------------------------
+
+inoremap jk <esc>
+tnoremap jk <C-\><C-n>
+
+" config
+nnoremap <leader>cev :vsplit ~/.config/nvim/init.vim<CR>
+nnoremap <leader>ces :split ~/.config/nvim/init.vim<CR>
+nnoremap <leader>cet :tabedit ~/.config/nvim/init.vim<CR>
+nnoremap <leader>cs :source ~/.config/nvim/init.vim<CR>
+
+" indentation
+nnoremap <leader>i2 :set tabstop=2<CR> :set shiftwidth=2<CR>
+nnoremap <leader>i4 :set tabstop=4<CR> :set shiftwidth=4<CR>
+
+" navigation
+nnoremap H 0
+nnoremap J G
+nnoremap K gg
+nnoremap L $
+
+" files
+nnoremap <leader>nfs :vsplit<CR><C-W><C-W>:enew<CR>
+nnoremap <leader>nft :tabedit<CR>
+nnoremap <leader>nt :NERDTreeToggle<CR>
+nnoremap <C-P> :Files<CR>
+nnoremap <leader>pp :PrettierAsync<CR>
+
+" splits
+nnoremap <leader>h <C-W><C-H>
+nnoremap <leader>j <C-W><C-J>
+nnoremap <leader>k <C-W><C-K>
+nnoremap <leader>l <C-W><C-L>
+
+nnoremap <leader>\  :vsplit<CR>
+nnoremap <leader>\| :vsplit<CR>
+nnoremap <leader>-  :split<CR>
+nnoremap <leader>_  :split<CR>
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+
+nnoremap <leader>wh 20<C-W><
+nnoremap <leader>wl 20<C-W>>
+nnoremap <leader>wj 10<C-W>+
+nnoremap <leader>wk 10<C-W>-
+nnoremap <leader>w= <C-W>=
+
+" searching
+nnoremap <leader><leader> :noh<CR>
+
+" tabs
+nnoremap <C-H> :tabprevious<CR>
+nnoremap <C-L> :tabnext<CR>
+
+" line numbers
+nnoremap <leader>tln :set nu!<CR>
+nnoremap <leader>trn :set relativenumber!<CR>
+
+" colorcolumn
+nnoremap <leader>cc :set colorcolumn=80<CR>
+nnoremap <leader>cc0 :set colorcolumn=0<CR>
+
+" vimwiki
+imap <C-A> <Plug>VimwikiListNextSymbol
+imap <C-S> <Plug>VimwikiListPrevSymbol
+
+" plugin management
+nnoremap <leader>pi :PlugInstall<CR>
+nnoremap <leader>pc :PlugClean<CR>

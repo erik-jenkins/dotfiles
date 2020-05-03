@@ -1,0 +1,31 @@
+# machines
+alias do_fg="ssh root@67.205.153.197"
+
+# python aliases
+alias python="python3"
+alias pip="pip3"
+
+# docker
+alias dc="docker-compose"
+alias d="docker"
+
+# shell-specific aliases
+alias reload="source $HOME/.zshrc"
+alias vimalias="vim ~/.aliases"
+alias vimconfig="vim ~/.dotfiles/nvim/init.vim"
+alias j="jobs"
+alias c="clear"
+alias l="ls -lah"
+
+# git-specific aliases
+alias gs="git status"
+alias gcm="git commit -m"
+alias gco="git checkout"
+alias glo="git log --oneline"
+alias gpsho="git push origin"
+alias gpshom="git push origin master"
+alias gpllo="git pull origin"
+alias gpllom="git pull origin master"
+
+# path aliases
+alias proj="cd ~/Projects"
