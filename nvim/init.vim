@@ -26,6 +26,10 @@ set fillchars+=vert:\
 " allow project-specific vim config
 set exrc
 
+" menu settings
+set wildmenu
+set wildmode=longest:list,full
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
