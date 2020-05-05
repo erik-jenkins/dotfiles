@@ -19,8 +19,8 @@ set expandtab
 set nu
 
 " colors
-"hi EndOfBuffer ctermbg=black ctermfg=black
-"hi VertSplit cterm=None
+hi EndOfBuffer ctermbg=black ctermfg=black
+hi VertSplit ctermfg=Black
 set fillchars+=vert:\ 
 
 " allow project-specific vim config
@@ -42,6 +42,7 @@ Plug 'junegunn/fzf.vim'                             " fuzzy file finder
 Plug 'mattn/emmet-vim'                              " zen html
 Plug 'neoclide/coc.nvim', {'branch': 'release'}     " completion framework
 Plug 'preservim/nerdtree'                           " file tree sidebar
+Plug 'skywind3000/asyncrun.vim'                     " run commands asynchronously
 Plug 'tyru/open-browser.vim'                        " open the browser from vim
 Plug 'vim-airline/vim-airline'                      " status bar
 Plug 'vim-airline/vim-airline-themes'               " themes for airline status bar
@@ -109,7 +110,10 @@ nnoremap <leader><leader> :noh<CR>
 nnoremap <leader>nt :NERDTreeToggle<CR>
 
 " fzf
-nnoremap <C-P> :GFiles?<CR>
+nnoremap <C-P> :Files<CR>
+
+" terminal mode
+tnoremap jk <C-\><C-N>
 
 " emmet
 let g:user_emmet_leader_key='<C-E>'
