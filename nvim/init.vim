@@ -30,6 +30,8 @@ set exrc
 set wildmenu
 set wildmode=longest:list,full
 
+" mouse settings
+set mouse=a
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
