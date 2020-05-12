@@ -1,27 +1,44 @@
+############################################################
 # machines
+############################################################
 alias do_fg="ssh root@67.205.153.197"
 
+############################################################
 # python aliases
+############################################################
 alias python="python3"
 alias pip="pip3"
 
+############################################################
 # docker
+############################################################
 alias dc="docker-compose"
 alias d="docker"
 
+############################################################
 # vim aliases
+############################################################
+
+# use neovim if it's available
+if command -v nvims > /dev/null; then
+  alias vim="nvim"
+fi
 alias vimalias="vim ~/.aliases"
 alias vimconfig="vim ~/.dotfiles/nvim/init.vim"
 alias vimwiki='vim -c VimwikiIndex'
 alias vimdiary='vim -c VimwikiMakeDiaryNote'
 
+############################################################
 # shell-specific aliases
+############################################################
 alias reload="source $HOME/.zshrc"
 alias j="jobs"
 alias c="clear"
 alias l="ls -lah"
 
+############################################################
 # git-specific aliases
+############################################################
 alias gs="git status"
 alias gcm="git commit -m"
 alias gco="git checkout"
@@ -31,5 +48,7 @@ alias gpshom="git push origin master"
 alias gpllo="git pull origin"
 alias gpllom="git pull origin master"
 
+############################################################
 # path aliases
+############################################################
 alias proj="cd ~/Projects"
