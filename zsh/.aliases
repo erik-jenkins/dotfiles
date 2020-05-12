@@ -52,3 +52,4 @@ alias gpllom="git pull origin master"
 # path aliases
 ############################################################
 alias proj="cd ~/Projects"
+alias dotfiles="cd ~/.dotfiles"
