@@ -9,10 +9,13 @@ alias pip="pip3"
 alias dc="docker-compose"
 alias d="docker"
 
-# shell-specific aliases
-alias reload="source $HOME/.zshrc"
+# vim aliases
 alias vimalias="vim ~/.aliases"
 alias vimconfig="vim ~/.dotfiles/nvim/init.vim"
+alias vimwiki='vim -c VimwikiIndex'
+
+# shell-specific aliases
+alias reload="source $HOME/.zshrc"
 alias j="jobs"
 alias c="clear"
 alias l="ls -lah"

@@ -42,7 +42,6 @@ set mouse=a
 call plug#begin("~/.config/nvim/plugged")
 
 Plug 'chriskempson/base16-vim'                      " lots of nice colors
-Plug 'easymotion/vim-easymotion'                    " better movement
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }  " go language support
 Plug 'jiangmiao/auto-pairs'                         " automatically close brackets
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " install fzf
@@ -54,6 +53,7 @@ Plug 'skywind3000/asyncrun.vim'                     " run commands asynchronousl
 Plug 'tyru/open-browser.vim'                        " open the browser from vim
 Plug 'vim-airline/vim-airline'                      " status bar
 Plug 'vim-airline/vim-airline-themes'               " themes for airline status bar
+Plug 'justinmk/vim-sneak'                           " jump to location with two chars
 Plug 'vimwiki/vimwiki'                              " personal wiki
 
 call plug#end()
@@ -70,18 +70,25 @@ source ~/.config/nvim/coc.vim
 
 " nerdtree
 autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") && v:this_session == "" | NERDTree | endif
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") && v:this_session == "" | NERDTree | wincmd l | endif
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
  
-"" vim-go
+" vim-go
 let g:go_fmt_command = "goimports"
 let g:go_highlight_types = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_function_calls = 1
 
+" vim-sneak
+let g:sneak#label = 1
+
 " vimwiki
-let g:vimwiki_list = [{'path': '~/.dotfiles/wiki'}]
+let g:vimwiki_list = []
+if $EAJ_WAYFAIR
+  let g:vimwiki_list += [{'path': '~/.dotfiles/wayfairwiki'}]
+endif
+let g:vimwiki_list += [{'path': '~/.dotfiles/wiki'}]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " keybindings
@@ -120,10 +127,6 @@ nnoremap <leader>nt :NERDTreeToggle<CR>
 
 " fzf
 nnoremap <C-P> :Files<CR>
-
-" easymotion
-map <leader><leader> <Plug>(easymotion-prefix)
-nmap <leader><leader>f <Plug>(easymotion-overwin-f)
 
 " terminal mode
 tnoremap jk <C-\><C-N>
