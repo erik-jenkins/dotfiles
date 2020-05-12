@@ -23,10 +23,6 @@ set splitbelow
 set nu
 set rnu
 
-" colors
-let base16colorspace=256  " Access colors present in 256 colorspace
-set termguicolors
-
 " allow project-specific vim config
 set exrc
 
@@ -58,7 +54,12 @@ Plug 'vimwiki/vimwiki'                              " personal wiki
 
 call plug#end()
 
+" colors
 colorscheme base16-gruvbox-dark-pale
+let base16colorspace=256  " Access colors present in 256 colorspace
+set termguicolors
+hi! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " plugin configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""

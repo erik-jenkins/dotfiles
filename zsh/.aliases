@@ -13,6 +13,7 @@ alias d="docker"
 alias vimalias="vim ~/.aliases"
 alias vimconfig="vim ~/.dotfiles/nvim/init.vim"
 alias vimwiki='vim -c VimwikiIndex'
+alias vimdiary='vim -c VimwikiMakeDiaryNote'
 
 # shell-specific aliases
 alias reload="source $HOME/.zshrc"
