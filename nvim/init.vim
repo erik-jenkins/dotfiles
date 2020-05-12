@@ -15,13 +15,17 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" splits
+set splitright
+set splitbelow
+
 " line numbers
 set nu
+set rnu
 
 " colors
-hi EndOfBuffer ctermbg=black ctermfg=black
-hi VertSplit ctermfg=Black
-set fillchars+=vert:\ 
+let base16colorspace=256  " Access colors present in 256 colorspace
+set termguicolors
 
 " allow project-specific vim config
 set exrc
@@ -37,6 +41,8 @@ set mouse=a
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin("~/.config/nvim/plugged")
 
+Plug 'chriskempson/base16-vim'                      " lots of nice colors
+Plug 'easymotion/vim-easymotion'                    " better movement
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }  " go language support
 Plug 'jiangmiao/auto-pairs'                         " automatically close brackets
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " install fzf
@@ -52,11 +58,12 @@ Plug 'vimwiki/vimwiki'                              " personal wiki
 
 call plug#end()
 
+colorscheme base16-gruvbox-dark-pale
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " plugin configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " airline
-let g:airline_theme='wombat'
+let g:airline_theme='base16_gruvbox_dark_hard'
 
 " coc
 source ~/.config/nvim/coc.vim
@@ -106,13 +113,17 @@ nnoremap <leader>pi :PlugInstall<CR>
 nnoremap <leader>pc :PlugClean<CR>
 
 " searching
-nnoremap <leader><leader> :noh<CR>
+nnoremap <Bslash><Bslash> :noh<CR>
 
 " nerdtree
 nnoremap <leader>nt :NERDTreeToggle<CR>
 
 " fzf
 nnoremap <C-P> :Files<CR>
+
+" easymotion
+map <leader><leader> <Plug>(easymotion-prefix)
+nmap <leader><leader>f <Plug>(easymotion-overwin-f)
 
 " terminal mode
 tnoremap jk <C-\><C-N>
