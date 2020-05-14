@@ -14,6 +14,9 @@ alias pip="pip3"
 ############################################################
 alias dc="docker-compose"
 alias d="docker"
+function debuglayer {
+  docker run --rm -it $1 sh
+}
 
 ############################################################
 # vim aliases

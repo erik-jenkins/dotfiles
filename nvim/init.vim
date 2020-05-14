@@ -42,14 +42,15 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }  " go language support
 Plug 'jiangmiao/auto-pairs'                         " automatically close brackets
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " install fzf
 Plug 'junegunn/fzf.vim'                             " fuzzy file finder
+Plug 'justinmk/vim-sneak'                           " jump to location with two chars
 Plug 'mattn/emmet-vim'                              " zen html
 Plug 'neoclide/coc.nvim', {'branch': 'release'}     " completion framework
 Plug 'preservim/nerdtree'                           " file tree sidebar
 Plug 'skywind3000/asyncrun.vim'                     " run commands asynchronously
+Plug 'tpope/vim-commentary'                         " comment stuff out
 Plug 'tyru/open-browser.vim'                        " open the browser from vim
 Plug 'vim-airline/vim-airline'                      " status bar
 Plug 'vim-airline/vim-airline-themes'               " themes for airline status bar
-Plug 'justinmk/vim-sneak'                           " jump to location with two chars
 Plug 'vimwiki/vimwiki'                              " personal wiki
 
 call plug#end()
