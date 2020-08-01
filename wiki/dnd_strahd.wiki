@@ -1,0 +1,81 @@
+= Curse of Strahd =
+
+== Characters ==
+
+=== Players ===
+
+- TBD
+
+=== NPCs ===
+
+== Tarokka Card Readings ==
+
+[[http://me.nathanialmcconnell.name/tarokka/|Tarokka Reading Link]]
+
+=== Tome of Strahd ===
+
+Read aloud:
+
+    This card tells of history. Knowledge of the ancient will help you better
+    understand your enemy.
+
+First reading: *six of coins - the beggar*
+
+    A wounded elf has what you seek. He will part with the treasure to see his
+    dark dreams fulfilled.
+
+*The treasure is hidden in Kasimir's hovel (chapter 5, area N9a)*
+
+=== Holy Symbol of Ravenkind ===
+
+Read aloud:
+
+    This card tells of a powerful force for good and protection, a holy symbol
+    of great hope.
+
+First reading: *four of coins - the merchant*
+
+    Seek a cask that once contained the finest wine, of which not a drop
+    remains.
+
+*The treasure lies in Castle Ravenloft's wine cellar (chapter 4, area K63)*
+
+=== Sunsword ===
+
+Read aloud:
+
+    This is a card of power and strength. It tells of a weapon of vengeance:
+    a sword of sunlight.
+
+First reading: *six of stars - the evoker*
+
+    Search for the crypt of a wizard ordinaire. His staff if the key.
+
+*The treasure is hidden in the crypt of Gralmore Nimblenobs (chapter 4, area K84, crypt 37)*
+
+=== Strahd's Enemy ===
+
+Read aloud:
+
+    This card sheds light on one who will help you greatly in the battle
+    against darkness.
+
+First reading: *broken one*
+
+    Your greatest ally will be a wizard. His mind is broken, but his spells
+    are strong.
+
+*This card refers to the Mad Mage of Mount Baratok (chapter 2, area M)*
+
+=== Strahd ===
+
+Read aloud:
+
+    Your enemy is a creature of darkness, whose powers are beyond mortality.
+    This card will lead you to him!
+
+First reading: *donjon*
+
+    He lurks in a hall of bones, in the dark pits of his castle.
+
+*Strahd faces the characters in the hall of bones (area K67)*

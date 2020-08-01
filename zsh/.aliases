@@ -23,7 +23,7 @@ function debuglayer {
 ############################################################
 
 # use neovim if it's available
-if command -v nvims > /dev/null; then
+if command -v nvim > /dev/null; then
   alias vim="nvim"
 fi
 alias vimalias="vim ~/.aliases"
