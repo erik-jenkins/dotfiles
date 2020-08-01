@@ -23,7 +23,7 @@ function debuglayer {
 ############################################################
 
 # use neovim if it's available
-if command -v nvims > /dev/null; then
+if command -v nvim > /dev/null; then
   alias vim="nvim"
 fi
 alias vimalias="vim ~/.aliases"
@@ -40,12 +40,24 @@ alias c="clear"
 alias l="ls -lah"
 
 ############################################################
+# tree patterns to ignore
+############################################################
+
+treeIgnorePatterns=('node_modules')
+treeIgnorePatternsJoined=$(printf "|%s" "${treeIgnorePatterns[@]}")
+treeIgnorePatternsJoined=${treeIgnorePatternsJoined:1}
+alias tree="tree -I $treeIgnorePatternsJoined"
+
+############################################################
 # git-specific aliases
 ############################################################
 alias gs="git status"
 alias gcm="git commit -m"
 alias gco="git checkout"
+alias gcom="git checkout master"
+alias gcob="git checkout -b"
 alias glo="git log --oneline"
+alias gpsh="git push"
 alias gpsho="git push origin"
 alias gpshom="git push origin master"
 alias gpllo="git pull origin"

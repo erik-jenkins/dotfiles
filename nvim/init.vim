@@ -46,7 +46,9 @@ Plug 'justinmk/vim-sneak'                           " jump to location with two 
 Plug 'mattn/emmet-vim'                              " zen html
 Plug 'neoclide/coc.nvim', {'branch': 'release'}     " completion framework
 Plug 'preservim/nerdtree'                           " file tree sidebar
+Plug 'sheerun/vim-polyglot'                         " language pack
 Plug 'skywind3000/asyncrun.vim'                     " run commands asynchronously
+Plug 'tomtom/tcomment_vim'                          " comment stuff
 Plug 'tpope/vim-commentary'                         " comment stuff out
 Plug 'tyru/open-browser.vim'                        " open the browser from vim
 Plug 'vim-airline/vim-airline'                      " status bar
@@ -69,6 +71,9 @@ let g:airline_theme='base16_gruvbox_dark_hard'
 
 " coc
 source ~/.config/nvim/coc.vim
+
+" fzf
+let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git --ignore node_modules -l -g ""'
 
 " nerdtree
 autocmd StdinReadPre * let s:std_in=1
@@ -128,7 +133,7 @@ nnoremap <Bslash><Bslash> :noh<CR>
 nnoremap <leader>nt :NERDTreeToggle<CR>
 
 " fzf
-nnoremap <C-P> :Files<CR>
+nnoremap <C-P> :FZF<CR>
 
 " terminal mode
 tnoremap jk <C-\><C-N>

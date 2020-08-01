@@ -1,0 +1,39 @@
+= Character =
+
+Un-normalized character data:
+
+{{{json
+
+{
+  "name": "Kolith Carmalis",
+  "baseScores":  {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "race": {
+    "name": "Half-Elf",
+    "features": {
+      {
+        "type": "bonus",
+        "applyTo": "cha",
+        "value": 2
+      },
+      {
+        "type": "bonus",
+        "applyTo": "dex",
+        "value": 1
+      },
+      {
+        "type": "bonus",
+        "applyTo": "int",
+        "value": 1
+      },
+    }
+  }
+}
+  
+}}}
