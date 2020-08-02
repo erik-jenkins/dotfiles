@@ -1,12 +1,70 @@
+= Contents =
+  - [[#Curse of Strahd|Curse of Strahd]]
+    - [[#Curse of Strahd#Characters|Characters]]
+      - [[#Curse of Strahd#Characters#Barovian Lore|Barovian Lore]]
+      - [[#Curse of Strahd#Characters#Vistani Lore|Vistani Lore]]
+      - [[#Curse of Strahd#Characters#Barovians with souls|Barovians with souls]]
+      - [[#Curse of Strahd#Characters#Players|Players]]
+      - [[#Curse of Strahd#Characters#NPCs|NPCs]]
+        - [[#Curse of Strahd#Characters#NPCs#Arrigal|Arrigal]]
+        - [[#Curse of Strahd#Characters#NPCs#Donavich|Donavich]]
+        - [[#Curse of Strahd#Characters#NPCs#Ireena Kolyana|Ireena Kolyana]]
+        - [[#Curse of Strahd#Characters#NPCs#Ismark Kolyanovich|Ismark Kolyanovich]]
+    - [[#Curse of Strahd#Tarokka Card Readings|Tarokka Card Readings]]
+      - [[#Curse of Strahd#Tarokka Card Readings#Tome of Strahd|Tome of Strahd]]
+      - [[#Curse of Strahd#Tarokka Card Readings#Holy Symbol of Ravenkind|Holy Symbol of Ravenkind]]
+      - [[#Curse of Strahd#Tarokka Card Readings#Sunsword|Sunsword]]
+      - [[#Curse of Strahd#Tarokka Card Readings#Strahd's Enemy|Strahd's Enemy]]
+      - [[#Curse of Strahd#Tarokka Card Readings#Strahd|Strahd]]
+    - [[#Curse of Strahd#Story|Story]]
+      - [[#Curse of Strahd#Story#Adventure Hook|Adventure Hook]]
+        - [[#Curse of Strahd#Story#Adventure Hook#Plea For Help|Plea For Help]]
+
 = Curse of Strahd =
 
+{{https://5e.tools/img/adventure/CoS/Count%20Strahd%20von%20Zarovich.jpg?v=1.108.6}}
+
 == Characters ==
+
+=== Barovian Lore ===
+
+Link: https://5e.tools/adventure.html#cos,2,barovian%20lore,0
+
+=== Vistani Lore ===
+
+Link: https://5e.tools/adventure.html#cos,2,vistani%20lore,0
+
+=== Barovians with souls ===
+
+- [[#Ireena Kolyana]]
+- [[#Ismark Kolyanovich]]
+- [[#Donavich]]
 
 === Players ===
 
 - TBD
 
 === NPCs ===
+
+==== Arrigal ====
+
+NE male human assassin.
+
+Vistani was sent to deliver message from Strahd to the party.
+
+==== Donavich ====
+
+==== Ireena Kolyana ====
+
+==== Ismark Kolyanovich ====
+
+LG male human veteran.
+
+The son of Kolyan Indirovich, the burgomaster of Barovia, and brother of Ireena
+Kolyana, the adopted daughter of Kolyan.
+
+Wants his sister, Ireena, protected from Strahd - asks the characters for help
+escorting her to Vallaki.
 
 == Tarokka Card Readings ==
 
@@ -26,6 +84,8 @@ First reading: *six of coins - the beggar*
 
 *The treasure is hidden in Kasimir's hovel (chapter 5, area N9a)*
 
+{{https://www.enworld.org/attachments/beggar-png.73356/}}
+
 === Holy Symbol of Ravenkind ===
 
 Read aloud:
@@ -40,6 +100,8 @@ First reading: *four of coins - the merchant*
 
 *The treasure lies in Castle Ravenloft's wine cellar (chapter 4, area K63)*
 
+{{https://www.enworld.org/attachments/t1merchant-png.73380/}}
+
 === Sunsword ===
 
 Read aloud:
@@ -52,6 +114,8 @@ First reading: *six of stars - the evoker*
     Search for the crypt of a wizard ordinaire. His staff if the key.
 
 *The treasure is hidden in the crypt of Gralmore Nimblenobs (chapter 4, area K84, crypt 37)*
+
+{{https://www.enworld.org/attachments/evoker-png.73365/}}
 
 === Strahd's Enemy ===
 
@@ -67,15 +131,46 @@ First reading: *broken one*
 
 *This card refers to the Mad Mage of Mount Baratok (chapter 2, area M)*
 
+{{https://www.enworld.org/attachments/broken-png.73359/}}
+
 === Strahd ===
 
 Read aloud:
 
     Your enemy is a creature of darkness, whose powers are beyond mortality.
-    This card will lead you to him!
+    This card will lead you to him! asiduhasiuhd aiushdiua shdiaushd auisdhais uhdiasuhd iaushdiuashdiuahsd 
 
 First reading: *donjon*
 
     He lurks in a hall of bones, in the dark pits of his castle.
 
 *Strahd faces the characters in the hall of bones (area K67)*
+
+{{https://www.enworld.org/attachments/donjon-png.73363/}}
+
+== Story ==
+
+=== Adventure Hook ===
+
+Relevant 5e.tools page: https://5e.tools/adventure.html#CoS,1,adventure%20hooks
+
+Before making characters, ask if everyone would prefer to start at level 1 or
+level 3.
+
+- Ask preference to start at level 1 or level 3
+- Level 1:
+  - Use [[#Plea For Help]] party hook
+  - Run [[#Death House]] to advance the characters to level 3
+- Level 3:
+  - Use [[#Mysterious Visitors]]
+
+Or, if they come up with a good way that their characters would know each other
+or be travelling with each other, use the "creeping fog" adventure hook.
+
+==== Plea For Help ====
+
+Characters are approached by [[#Arrigal]], who has been sent to deliver a message
+to the party to plead for help. He is secretly working for Strahd!
+
+If the players decide not to listen to Arrigal, they should be surrounded by the
+creeping fog when the leave the tavern for their next destination.

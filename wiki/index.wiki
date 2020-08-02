@@ -6,4 +6,5 @@
 
 = DND =
 
+- [[dnd_notes|General Notes]]
 - [[dnd_strahd|Curse of Strahd]]

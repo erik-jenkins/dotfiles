@@ -1,0 +1,15 @@
+= General DND Notes =
+
+== Running the Game #58: Making Travel Interesting ==
+
+- Want to present the world as a real place, where interesting things can happen
+  during travel.
+- Have permission to just fast-forward travel! Unless just getting around is the
+  point of the adventure.
+- Our job as DMs is to advance the plot.
+- If you do want to make it interesting (give it tension), use a skill challenge
+  from 4e.
+  - Players collectively work on a challenge.
+  - Players say what skills they're going to use and how they're going to use them
+  - They have to accumulate a certain number of successes (easy: 3, hard: 6) before
+    accumulating three failures.
